@@ -13,5 +13,10 @@ setuptools.setup(
     url="https://github.com/niyaznigmatullin/polygon-api",
     packages=setuptools.find_packages(),
     python_requires='>=3.6',
-    install_requires=['requests']
+    install_requires=['requests'],
+    classifiers = [
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent"
+    ]
 )
